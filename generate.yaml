@@ -1,0 +1,11 @@
+---
+name: cloud-dictionaries
+description: <p><b>Hi Team - This is the Cloud Web Portal service API documentation</b></p>
+basePath: /cloud dictionaries api
+openApiSpec: cloud-dictionaries.json
+environmentSpec: Dev
+authMethod: none
+responseCache:
+  timeDuration: 45
+schemes: []
+routes: []
