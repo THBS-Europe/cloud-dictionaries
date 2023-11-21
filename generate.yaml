@@ -5,7 +5,8 @@ basePath: /cloud dictionaries api
 openApiSpec: cloud-dictionaries.json
 environmentSpec: Dev
 authMethod: none
-responseCache:
-  timeDuration: 23
+corelation:
+  correlationId: "true"
+  trace: "true"
 schemes: []
 routes: []
