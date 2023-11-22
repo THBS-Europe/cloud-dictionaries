@@ -4,11 +4,12 @@ description: <p><b>Hi Team - This is the Cloud Web Portal service API documentat
 basePath: /cloud dictionaries api
 openApiSpec: cloud-dictionaries.json
 environmentSpec: Dev
+type: API
 authMethod: none
-responseCache:
-  timeDuration: 34
-corelation:
-  correlationId: "true"
-  trace: "true"
+azureRateLimit:
+  noOfCalls: 45
+  renewalPeriod: 34
+  ratepolicy: api
+  counter: ip-address
 schemes: []
 routes: []
