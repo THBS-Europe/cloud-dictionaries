@@ -6,10 +6,8 @@ openApiSpec: cloud-dictionaries.json
 environmentSpec: Dev
 type: API
 authMethod: none
-azureRateLimit:
-  noOfCalls: 45
-  renewalPeriod: 34
-  ratepolicy: api
-  counter: ip-address
+responseCache:
+  timeDuration: 232
+  cachepolicy: api
 schemes: []
 routes: []
