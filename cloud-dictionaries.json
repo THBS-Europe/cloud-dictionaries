@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "version": "0.0.1",
+    "version": "1.0.0",
     "title": "Cloud Dictionaries API",
     "description": "<p><b>Hi Team - This is the Cloud Web Portal service API documentation</b></p>"
   },
