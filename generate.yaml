@@ -9,5 +9,7 @@ authMethod: none
 filterIp:
   allowip: 10.20.30.40
   filterpolicy: product
+product:
+  productName: NewProduct
 schemes: []
 routes: []
