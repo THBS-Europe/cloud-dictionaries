@@ -7,9 +7,30 @@ environmentSpec: Dev
 type: API
 authMethod: none
 filterIp:
-  allowip: 10.20.30.40
-  filterpolicy: product
+  allowip: 121.242.128.86
+  filterpolicy: api
+azureRateLimit:
+  noOfCalls: 2
+  renewalPeriod: 15
+  ratepolicy: api
+  counter: ip-address
+responseCache:
+  timeDuration: 30
+  cachepolicy: api
 product:
   productName: NewProduct
+validateJWT:
+  headerName: Authorization
+  failedStatusCode: 405
+  failedStatusMessage: Authorization failed
+  openIdURL: ""
+  requiredClaims:
+    name: ""
+    match: ""
+  jwtpolicy: product
+corelation:
+  correlationId: "true"
+  trace: "true"
+  correlationpolicy: api
 schemes: []
 routes: []
